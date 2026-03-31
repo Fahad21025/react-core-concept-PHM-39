@@ -6,6 +6,7 @@ import Users from './Users';
 import Friends from './Friends';
 import Posts from './Posts';
 import Count from './Count';
+import Toggle from './Toggle';
 
 
 
@@ -72,6 +73,8 @@ return (
 </Suspense>
 
 <Count></Count>
+
+<Toggle></Toggle>
   </>
 )
 }
